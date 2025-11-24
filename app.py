@@ -24,6 +24,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/health")
+async def health():
+    return "ok"
 
 @app.get("/sitekey")
 async def get_sitekey():
