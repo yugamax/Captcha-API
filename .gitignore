@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+# VS Code
+.vscode/
+# OS
+.DS_Store
+Thumbs.db
+# Virtual environments
+venv/
+ENV/
+.envrc
+# Logs
+*.log
+# Test and coverage
+htmlcov/
+.coverage
+.cache/
+.pytest_cache/
+# Misc
+*.sqlite3
+*.db
+frontend.html
